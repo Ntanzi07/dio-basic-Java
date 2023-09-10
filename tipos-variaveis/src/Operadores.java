@@ -24,6 +24,29 @@ public class Operadores {
         numero =numero * -1;
         System.out.println(numero);
 
+        System.out.println("\nExemplo 4");
+        int a, b;
+        a = 5;
+        b = 6;
+        //usando uma maneira simplificada
+        String resultado = a==b ?"verdadeira" : "falso";
+        //usando if/else
+        /* 
+        if(a==b)
+            resultado = "verdadeiro";
+        else
+            resultado = "falso";
+        */
+        System.out.println(resultado);
 
+        System.out.println("\nExemplo 5");
+        int num1 = 2,num2 = 1;
+        String tex1= "Hello";
+        String tex2= "Hello";
+        
+        //comparar numeros
+        System.out.println(num1 == num2);
+        //comparar conteudo
+        System.out.println(tex1.equals(tex2));
     }
 }
