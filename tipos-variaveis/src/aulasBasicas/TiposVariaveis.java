@@ -1,3 +1,4 @@
+package aulasBasicas;
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
         byte tipoByte = 124;
